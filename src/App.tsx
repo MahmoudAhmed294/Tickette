@@ -7,6 +7,7 @@ import Register from "./pages/Auth/component/Register";
 import CinemaDetails from "./pages/CinemaDetails";
 import MoviesDetails from "./pages/MoviesDetails";
 import Booking from "./pages/BookingMovie";
+import Mytickets from "./pages/Mytickets";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/cinemaDetails" element={<CinemaDetails />} />
           <Route path="/moviesDetails" element={<MoviesDetails />} />
           <Route path="/booking" element={<Booking />} />
+          <Route path="/myTickets" element={<Mytickets />} />
 
           <Route element={<AuthLayout />}>
             <Route path="/login" element={<Login />} />

@@ -62,7 +62,7 @@ const Login = (props: Props) => {
                   }}
                 />
                 <Group position="apart" align="center" sx={{ marginTop: 8 }}>
-                  <Box sx={{}}>
+                  <Box >
                     <Checkbox label="Remember me" radius={5} />
                   </Box>
                   <Link to="/Forgot Password?" color="inherit">
